@@ -1,0 +1,122 @@
+body {
+  background: #bdb04b;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+canvas {
+  max-width: 50%;
+}
+
+.enter-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.enter-text input {
+  display: block;
+  padding: 4px;
+  margin: auto;
+  margin-top: 4px;
+}
+
+.content-wrapper {
+  background: white;
+
+  padding: 12px;
+  padding-bottom: 24px;
+  width: 80%;
+  margin: 36px auto;
+  text-align: center;
+}
+
+.input-wrapper {
+  margin-left: 24px;
+}
+
+.input-wrapper:first-of-type {
+  margin-left: 0;
+}
+
+.input-wrapper:nth-of-type(2) {
+  margin-right: -18px;
+}
+
+.canvas-download-buttons {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.canvas-download-buttons a {
+  border: 2px solid #f7f3f3;
+  border-radius: 8px;
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.canvas-download-buttons a:hover {
+  padding: 12px 8px;
+}
+
+.canvas-download-buttons a:first-of-type {
+  background: #00a43b;
+}
+
+.canvas-download-buttons a:last-of-type {
+  background: #db0308;
+}
+
+.footer {
+  margin-top: 16px;
+}
+
+.attribution {
+  margin: 0;
+  font-size: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+  .enter-text {
+    flex-direction: column;
+  }
+
+  .canvas-download-buttons a {
+    display: block;
+  }
+
+  .input-wrapper,
+  .input-wrapper:nth-of-type(2) {
+    margin: auto;
+  }
+
+  .input-wrapper:first-of-type,
+  .input-wrapper:nth-of-type(3) {
+    margin: auto;
+    margin-bottom: 12px;
+  }
+}

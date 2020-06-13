@@ -1,5 +1,5 @@
 body {
-  background: #bdb04b;
+  background: #199646;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -43,9 +43,18 @@ canvas {
   margin-top: 4px;
 }
 
-.content-wrapper {
-  background: white;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+.content-wrapper {
+  animation: 0.8s ease-out fadeIn;
+  background: white;
   padding: 12px;
   padding-bottom: 24px;
   width: 80%;

@@ -27,6 +27,7 @@ label {
 }
 
 canvas {
+  align-self: center;
   max-width: 50%;
 }
 
@@ -88,7 +89,8 @@ canvas {
   padding: 8px;
 }
 
-.canvas-download-buttons a:hover {
+.canvas-download-buttons a:hover,
+.canvas-download-buttons a:focus {
   padding: 12px 8px;
 }
 
